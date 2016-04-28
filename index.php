@@ -1,4 +1,4 @@
-<? php
+<?php
 
   $a = 4;
   $b = 25;
@@ -7,9 +7,9 @@
 
   $d = $b - $a;
 
-  echo $c;
+  echo "a + b =" . $c;
   echo "<br>";
-  echo $d;
+  echo "b - a=" . $d;
 
 
 
