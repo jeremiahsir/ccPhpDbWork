@@ -30,7 +30,7 @@ class car {
             return ($this->color);
     }
 
- public function getMake($newMake) {
+ public function getMake() {
      return ($this->make);
         }
 
