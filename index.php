@@ -1,30 +1,28 @@
 <?php
 
-$firstName = "Mickey";
-$lastName = "Mouse";
+for($i = 1; $i <= 300; $i++){
 
-echo $firstName;
-echo "<br>";
-echo $lastName;
-echo "<br>";
+  if( ($i % 3 === 0) && ($i % 5 === 0) && ($i % 7 === 0)){
+    echo "fizzbuzzwoof" . "<br>";
+  }else if( ($i % 5 === 0) && ($i % 7 === 0) ){
+    echo "buzzwoof" . "<br>";
+  } else if( ($i % 3 === 0) && ($i % 7 === 0) ){
+    echo "fizzwoof" . "<br>";
+  } else if( ($i % 3 === 0) && ($i % 5 === 0) ){
+    echo "fizzbuzz" . "<br>";
+  } else if( ($i % 3 ) === 0){
+    echo "fizz" . "<br>";
+  } else if ( ($i % 5) === 0){
+    echo "buzz" . "<br>";
+  } else if(($i % 7 ) === 0){
+    echo "woof" . "<br>";
+  }
 
-$lastName = "duck";
+    else {
+    echo $i . "<br>";
+  }
 
-echo $firstName . "<br>";
-
-echo $lastName . "<br>";
-
-
-$name = $firstName . " " . $lastName . "<br>";
-echo $name;
-
-
-
-$intro = "My name is " . $name . "<br>";
-
-echo $intro;
-
-echo "my first name is " . $name . "<br>";
+}
 
 
 
