@@ -1,3 +1,4 @@
+<<?php
 class car {
 
  private $color;
@@ -64,3 +65,4 @@ class car {
     echo $toyCar->stop() . "<br>";
 
     echo $toyCar->getName() . "<br>";
+?>
